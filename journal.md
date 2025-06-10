@@ -101,3 +101,39 @@
 
 **Deployed Site:** _[To be added once deployed]_
 **GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)
+
+## Journal Entry – Push 5: Footer, Metadata, and Accessibility Improvements
+
+**Date:** June 9, 2025
+**Commit Message:** Add footer with semantic HTML, improve accessibility with metadata and ARIA, pass audit
+
+### Description of Work:
+
+- Created a semantic and visually minimal footer that includes site credit and a GitHub link icon.
+- Updated `<head>` of `index.html` with metadata including `<meta name="description">`, `<meta name="author">`, and a favicon placeholder.
+- Verified color contrast, form label accessibility, and focus outlines for form fields using WAVE and Lighthouse tools.
+- Used ARIA roles where appropriate to aid screen reader navigation, such as `role="form"` and appropriate button labels.
+- Ensured all sections and navigation links are reachable via keyboard tabbing and in a logical reading order.
+- Styles were also lightly adjusted to maintain spacing consistency across devices and to improve screen reader semantics.
+
+### Challenges:
+
+- Ensuring color contrast compliance required subtle adjustments to the button hover shade and input border colors.
+- Added role attributes and form validation states without disrupting styling or layout consistency.
+- Navigating Lighthouse's specific recommendations sometimes contradicted Bootstrap’s default setup, so compromises were carefully made.
+
+### Outside Sources Used:
+
+- [MDN: HTML Metadata](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+- [WAVE Accessibility Tool](https://wave.webaim.org/)
+- [Bootstrap Accessibility Guidelines](https://getbootstrap.com/docs/5.3/getting-started/accessibility/)
+- [Font Awesome GitHub Icon](https://fontawesome.com/icons/github)
+
+### Next Steps:
+
+- Push 6 will include full README.md with deployment and source documentation.
+- Prepare for final code formatting pass, including HTML/CSS cleanup and ESLint for script.js.
+- Record video walkthrough and submit final PDF journal with project URL.
+
+**Deployed Site:** _[To be added once deployed]_
+**GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)

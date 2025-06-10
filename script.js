@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Bootstrap ScrollSpy activation
+  // Activate Bootstrap ScrollSpy for navbar highlighting on scroll
   const scrollSpy = new bootstrap.ScrollSpy(document.body, {
     target: "#navbar",
     offset: 70,
   });
 
-  // Smooth scroll for navbar links
+  // Smooth scroll for internal navigation links
   document.querySelectorAll('a.nav-link[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Form validation and modal behavior
+  // Contact form validation and confirmation modal
   const form = document.getElementById("contactForm");
   const confirmationModal = new bootstrap.Modal(
     document.getElementById("confirmationModal")
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!form.checkValidity()) {
       form.classList.add("was-validated");
     } else {
-      // Reset form after mock "submission"
+      // Reset form after mock submission
       form.reset();
       form.classList.remove("was-validated");
 
@@ -40,6 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   console.log(
-    "Script loaded, ScrollSpy, smooth scroll, and contact form logic initialized."
+    "Script loaded: ScrollSpy, smooth scroll, and form behavior initialized."
   );
 });
