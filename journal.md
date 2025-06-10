@@ -1,3 +1,29 @@
+## Journal Entry – Push 1: Initial Project Setup and File Structure
+
+**Date:** June 9, 2025
+**Commit Message:** Initial layout structure with navbar and section anchors
+
+### Description of Work:
+
+- Initialized Git repository and created the base folder structure for the personal portfolio.
+- Added `index.html` with semantic HTML5 structure and placeholder sections (`about`, `work`, `projects`, `contact`).
+- Linked external Bootstrap CSS and JS via CDN for responsive design support.
+- Created empty `styles.css` and `script.js` files, linked them to `index.html` for modular development.
+- Implemented a responsive navigation bar with scroll anchors for each major section.
+
+### Challenges:
+
+- Choosing a single-page layout approach versus multi-page architecture required comparing pros/cons.
+- Ensuring Bootstrap integration and ScrollSpy functionality aligned with my future section plans.
+
+### Next Steps:
+
+- Fill in About section content and styling (Push 2).
+- Begin scaffolding Previous Work and Projects cards.
+
+**Deployed Site:** _[To be added]_  
+**GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)
+
 ## Journal Entry – Push 2: Section Scaffolding and About Section
 
 **Date:** June 9, 2025
@@ -136,4 +162,42 @@
 - Record video walkthrough and submit final PDF journal with project URL.
 
 **Deployed Site:** _[To be added once deployed]_
+**GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)
+
+## Journal Entry – Push 6: Final Documentation, README, and Code Cleanup
+
+**Date:** June 10, 2025
+**Commit Message:** Add README.md, finalize formatting, and prepare for submission
+
+### Description of Work:
+
+- Created a detailed `README.md` file outlining the project purpose, tech stack, structure, and how to run/deploy.
+- Included GitHub Pages deployment instructions with expected URL format.
+- Cited external libraries and tools used (Bootstrap, Font Awesome, etc.).
+- Performed a thorough audit of HTML, CSS, and JS files for indentation, tag nesting, and semantic clarity.
+- Removed unnecessary `<h5>` headings that caused WAVE issues and replaced them with styled `<p>` tags.
+- Double-checked accessibility, heading hierarchy, label associations, and color contrast (WAVE passed clean).
+- Substituted placeholder image in About section with my headshot
+- Confirmed visual responsiveness on mobile, tablet, and desktop views.
+
+### Challenges:
+
+- Manually reconciling Bootstrap utility classes with semantic markup took time to clean and optimize.
+- Adjusting modal content heading to prevent audit warnings without affecting layout required testing several class combos.
+- Writing the README with enough clarity while keeping it concise required careful tone balancing.
+
+### Outside Sources Used:
+
+- [GitHub Pages Deployment Docs](https://docs.github.com/en/pages)
+- [Markdown Styling Reference](https://www.markdownguide.org/)
+- [Google Fonts](https://fonts.google.com/)
+- [Bootstrap Utilities](https://getbootstrap.com/docs/5.3/utilities/)
+
+### Next Steps:
+
+- Record final walkthrough video (10–12 min max) going over code, journal entries, and key design decisions.
+- Export journal as PDF and submit it with GitHub repo + deployed site link.
+- Reflect on this project in portfolio and consider building a custom theme next.
+
+**Deployed Site:** _[To be added once deployed]_  
 **GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)
