@@ -23,12 +23,14 @@ This is the final project for **CS 563: Introduction to Web Development** at Por
 
 ## 📁 Project Structure
 
-├── index.html # Main one-page website
-├── styles.css # All styling (minimalist + responsive)
-├── script.js # JavaScript for form, scroll, modal
-├── journal.md # Development logs for each push
-├── README.md # This file
-└── /images # (Optional) assets and placeholder image
+```
+├── index.html        # Main one-page website
+├── styles.css        # All styling (minimalist + responsive)
+├── script.js         # JavaScript for form, scroll, modal
+├── journal.md        # Development logs for each push
+├── README.md         # This file
+└── /images           # (Optional) assets and placeholder image
+```
 
 ---
 
