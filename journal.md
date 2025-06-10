@@ -1,4 +1,7 @@
-## Journal Entry 1: Section Scaffolding and About Section
+## Journal Entry – Push 2: Section Scaffolding and About Section
+
+**Date:** June 10, 2025
+**Commit Message:** Add About section with placeholder headshot and initial styling
 
 ### Description of Work:
 
