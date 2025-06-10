@@ -199,5 +199,5 @@
 - Export journal as PDF and submit it with GitHub repo + deployed site link.
 - Reflect on this project in portfolio and consider building a custom theme next.
 
-**Deployed Site:** _[To be added once deployed]_  
+**Deployed Site:** [https://alohajarren.github.io/cs563-final-project/](https://alohajarren.github.io/cs563-final-project/)  
 **GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)
