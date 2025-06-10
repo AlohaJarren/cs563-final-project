@@ -5,20 +5,41 @@ document.addEventListener("DOMContentLoaded", () => {
     offset: 70,
   });
 
-  // Smooth scroll for in-page anchor links (if not using native behavior)
+  // Smooth scroll for navbar links
   document.querySelectorAll('a.nav-link[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
       const targetId = this.getAttribute("href");
       const section = document.querySelector(targetId);
       if (section) {
-        section.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     });
   });
 
-  console.log("Script loaded, ScrollSpy and smooth scroll initialized.");
+  // Form validation and modal behavior
+  const form = document.getElementById("contactForm");
+  const confirmationModal = new bootstrap.Modal(
+    document.getElementById("confirmationModal")
+  );
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+
+    if (!form.checkValidity()) {
+      form.classList.add("was-validated");
+    } else {
+      // Reset form after mock "submission"
+      form.reset();
+      form.classList.remove("was-validated");
+
+      // Show confirmation modal
+      confirmationModal.show();
+    }
+  });
+
+  console.log(
+    "Script loaded, ScrollSpy, smooth scroll, and contact form logic initialized."
+  );
 });

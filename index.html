@@ -216,16 +216,102 @@
       <!-- /.container -->
     </section>
 
-    <!-- Contact Section Placeholder -->
-    <section id="contact" class="section-padding">
-      <div class="container py-5 text-center">
-        <h2 class="mb-4">Contact</h2>
-        <p class="lead">
-          This form will be implemented in the next push with mock submission
-          logic.
-        </p>
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+      <div class="container py-5">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <form id="contactForm" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label"
+                >Name<span class="text-danger">*</span></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Your full name"
+                required
+                aria-required="true"
+              />
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label"
+                >Email<span class="text-danger">*</span></label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="you@example.com"
+                required
+                aria-required="true"
+              />
+              <div class="invalid-feedback">
+                Please enter a valid email address.
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label"
+                >Message<span class="text-danger">*</span></label
+              >
+              <textarea
+                class="form-control"
+                id="message"
+                rows="5"
+                placeholder="Your message..."
+                required
+                aria-required="true"
+              ></textarea>
+              <div class="invalid-feedback">Please enter a message.</div>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary px-4">
+              Send Message
+            </button>
+          </div>
+        </form>
       </div>
     </section>
+
+    <!-- Modal for confirmation -->
+    <div
+      class="modal fade"
+      id="confirmationModal"
+      tabindex="-1"
+      aria-labelledby="confirmationModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="confirmationModalLabel">
+              Message Sent
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Thank you for reaching out! I'll get back to you as soon as I can.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-light">

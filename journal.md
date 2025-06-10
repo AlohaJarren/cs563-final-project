@@ -66,3 +66,38 @@
 
 **Deployed Site:** _[To be added once deployed]_
 **GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)
+
+## Journal Entry – Push 4: Contact Form and Interactivity
+
+**Date:** June 9, 2025
+**Commit Message:** Add functional contact form with minimal aesthetic and mock submission behavior
+
+### Description of Work:
+
+- Implemented the "Contact" section with a clean, minimal form styled in line with Apple/On Running design philosophy.
+- The form includes required fields: Name, Email, and Message, with Bootstrap layout for responsiveness.
+- Added client-side validation using JavaScript for real-time feedback before mock submission.
+- Introduced a modal confirmation dialog for form submission simulation (no backend).
+- Ensured accessibility using appropriate labels, aria attributes, and contrast checks.
+- Updated styles.css for additional form polish and button consistency.
+
+### Challenges:
+
+- Styling a minimalist form that still feels custom and polished took several iterations.
+- Needed to test accessibility using WAVE and Lighthouse, iteratively improving label alignment and contrast.
+- Integrated Bootstrap modals and event delegation properly within a single-page design.
+
+### Outside Sources Used:
+
+- [Bootstrap 5 Forms](https://getbootstrap.com/docs/5.3/forms/overview/)
+- [Bootstrap Modal Component](https://getbootstrap.com/docs/5.3/components/modal/)
+- [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+### Next Steps:
+
+- Add semantic metadata, project deployment, and footer enhancements.
+- Finalize README.md with full instructions and project links.
+- Begin polishing for mobile responsiveness and layout alignment.
+
+**Deployed Site:** _[To be added once deployed]_
+**GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)
