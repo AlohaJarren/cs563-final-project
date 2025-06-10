@@ -1,35 +1,73 @@
-/* General spacing for all sections */
-.section-padding {
-  padding: 80px 0;
-}
-
-/* Smooth scroll behavior */
-html {
+/* Base typography and layout */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
   scroll-behavior: smooth;
+  background-color: #ffffff;
+  color: #212529;
 }
 
-/* Navbar styling tweaks */
+h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.section-padding {
+  padding: 4rem 0;
+}
+
+/* Navbar */
 .navbar-brand {
   font-weight: bold;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
-/* Section headings */
-h2 {
-  font-size: 2rem;
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+/* About image */
+#about img {
+  object-fit: cover;
+  border: 4px solid #0d6efd;
+}
+
+/* Previous Work section lists */
+#work ul {
+  padding-left: 1.5rem;
+}
+
+#work li {
+  margin-bottom: 0.5rem;
+}
+
+/* Projects section cards */
+#projects .card {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+#projects .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+#projects .card-title {
+  font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 20px;
 }
 
-/* Placeholder image style */
-img.rounded-circle {
-  border: 4px solid #dee2e6;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+#projects .btn {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
 }
 
-/* Responsive text alignment */
-@media (max-width: 767px) {
-  .text-center {
-    text-align: center !important;
-  }
+/* Footer */
+footer {
+  font-size: 0.9rem;
 }

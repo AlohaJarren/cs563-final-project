@@ -5,5 +5,20 @@ document.addEventListener("DOMContentLoaded", () => {
     offset: 70,
   });
 
-  console.log("Script loaded and ScrollSpy initialized.");
+  // Smooth scroll for in-page anchor links (if not using native behavior)
+  document.querySelectorAll('a.nav-link[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      const targetId = this.getAttribute("href");
+      const section = document.querySelector(targetId);
+      if (section) {
+        section.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    });
+  });
+
+  console.log("Script loaded, ScrollSpy and smooth scroll initialized.");
 });

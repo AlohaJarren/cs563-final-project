@@ -1,6 +1,6 @@
 ## Journal Entry – Push 2: Section Scaffolding and About Section
 
-**Date:** June 10, 2025
+**Date:** June 9, 2025
 **Commit Message:** Add About section with placeholder headshot and initial styling
 
 ### Description of Work:
@@ -30,6 +30,39 @@
 - Flesh out Previous Work and Projects with full descriptions and links
 - Begin styling each section independently using `styles.css`
 - Start implementing interactivity in `script.js` (form validation, scroll animations, etc.)
+
+**Deployed Site:** _[To be added once deployed]_
+**GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)
+
+## Journal Entry – Push 3: Previous Work and Projects Sections
+
+**Date:** {datetime.now().strftime("%B %d, %Y")}
+**Commit Message:** Add Previous Work and Projects sections with content and responsive Bootstrap layout
+
+### Description of Work:
+
+- Fully implemented the "Previous Work" section with structured lists of my academic coursework and industry experience.
+- Added the "Projects" section with three project cards. Each card includes a title, description, and GitHub link.
+- Used Bootstrap’s grid system and `card` components for responsive layout.
+- Ensured visual clarity and clean spacing between sections using `section-padding` and consistent Bootstrap classes.
+- Updated `styles.css` to slightly style the cards and emphasize headers, while retaining a minimalist feel.
+- Prepared `script.js` for future interaction (e.g., card animations, form validation in next push).
+
+### Challenges:
+
+- Condensing real-world work experience and coursework into scannable, readable formats was a balancing act.
+- Ensured cards do not stack awkwardly on smaller screens using `col-lg-4` responsive layout.
+
+### Outside Sources Used:
+
+- [Bootstrap 5 Card Documentation](https://getbootstrap.com/docs/5.3/components/card/)
+- [Font Awesome](https://fontawesome.com/) icons for link indicators
+
+### Next Steps:
+
+- Complete the Contact form with mock submission behavior and accessibility-friendly formatting.
+- Begin enhancing JavaScript interactivity (form validation + smooth animation).
+- Add final visual enhancements like hover effects and semantic footer.
 
 **Deployed Site:** _[To be added once deployed]_
 **GitHub Repo:** [https://github.com/AlohaJarren/cs563-final-project](https://github.com/AlohaJarren/cs563-final-project)
