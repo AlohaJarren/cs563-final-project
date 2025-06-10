@@ -36,7 +36,7 @@
 
 ## Journal Entry – Push 3: Previous Work and Projects Sections
 
-**Date:** {datetime.now().strftime("%B %d, %Y")}
+**Date:** June 9, 2025
 **Commit Message:** Add Previous Work and Projects sections with content and responsive Bootstrap layout
 
 ### Description of Work:
